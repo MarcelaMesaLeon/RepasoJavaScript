@@ -1,0 +1,46 @@
+Tipos de datos:
+
+String: Cadena de texto "" o ''
+Numeros: enteros, decimales o reales
+Booleanos: true, false
+Object: estan entre llaves {} y contiene caracterisiticas de dicho objeto, los nombres deben ir en comillas y los datos de acuerdo a como se expresan 
+        {
+            "usuario":"marcela",
+            "edad":30,
+            "sexo":"femenino"
+        }
+Array: estan entre corchetes [], contienen elementos de tipos de datos
+        [1, "cualquier cosa", true, {"usuario":"marcela"}]
+
+
+Variables: Almacenan los datos
+
+var
+let
+const
+
+Declarar una variable:    let persona;
+Asignar valor a variable: persona = "marcela";    o      let persona = "marcela";
+
+Despues de varias actualizaciones solo se utiliza let y const y solo se declaran una vez, al crearse
+
+let arreglo = [1991, "clinica uribe", false, 54, [1,2,3]]      En esta variable de tipo array se almacenan datos de diferentes tipo, 
+                                                                incluso un array dentro de un array
+
+
+En esta variable de tipo objeto se almacenan propiedades y sus valores, uno de ellos es de tipo array
+
+let persona = {
+    "nacimiento":1991,
+    "lugar":"clinica uribe",
+    "cursos":["ingles", "frances"]
+}
+
+
+
+Comandos
+
+prompt("texto"):  preguntar en el navegador
+console.log("texto"): imprimir en la consila
+document.write("texto"): imprimir en el navegador
+alert("texto"): mostrar en ventana de navegador 
