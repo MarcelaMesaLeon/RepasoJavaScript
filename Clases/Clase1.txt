@@ -44,3 +44,4 @@ prompt("texto"):  preguntar en el navegador
 console.log("texto"): imprimir en la consila
 document.write("texto"): imprimir en el navegador
 alert("texto"): mostrar en ventana de navegador 
+

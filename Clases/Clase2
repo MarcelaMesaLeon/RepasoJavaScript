@@ -1,0 +1,46 @@
+Operadores
+
++ : Sirve para concatenar o unir datos y los imprime en texto
+    'hola ' + 1
+    "hola 1'
+
+-, * y / : Se aplica para opraciones numericas
+
+
+Comparadores
+
+= asigna un valor a una variable
+
+== comparar 2 valores
+
+=== compara los valores y el tipo de dato
+
+!= indica diferencia en los valores
+
+!== indica diferencia en los valores y el tipo de dato
+
+< o > mayor o menor que 
+
+<= menor o igual que 
+>= mayor o igual que 
+
+Condicionales
+
+if(comparacion) {
+
+}
+
+let nombre = "juan";
+if(nombre === "juan"){
+    document.write("Siiiiii");
+} else {
+    document.write("Noooooo");
+}
+
+
+
+Comandos
+
+typeof: inidica de que tipo es el datos
+    typeof('lina')
+        String
